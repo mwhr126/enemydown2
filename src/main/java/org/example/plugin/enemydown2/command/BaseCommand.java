@@ -14,9 +14,9 @@ public abstract class BaseCommand implements CommandExecutor {
   @Override
   public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String[] args) {
     if (sender instanceof Player player) {
-      return onExecutePlayerCommand(player);
+      return onExecutePlayerCommand(player, command, label, args);
     } else {
-      return onExecuteNPCCommand(sender);
+      return onExecuteNPCCommand(sender, command, label, args);
     }
   }
 
@@ -24,9 +24,12 @@ public abstract class BaseCommand implements CommandExecutor {
    * コマンド実行者がプレイヤーだった場合に実行します。
    *
    * @param player コマンドを実行したプレイヤー
+   * @param command コマンド
+   * @param label ラベル
+   * @param args コマンド引数
    * @return 処理の実行有無
    */
-  public abstract boolean onExecutePlayerCommand(Player player);
+  public abstract boolean onExecutePlayerCommand(Player player, @NotNull Command command, @NotNull String label, @NotNull String[] args);
 
 
   /**
@@ -35,5 +38,5 @@ public abstract class BaseCommand implements CommandExecutor {
    * @param sender コマンド実行者
    * @return 処理の実行有無
    */
-  public abstract boolean onExecuteNPCCommand(@NotNull CommandSender sender);
+  public abstract boolean onExecuteNPCCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String[] args);
 }
