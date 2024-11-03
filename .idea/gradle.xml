@@ -8,6 +8,34 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/src" />
+            <option value="$PROJECT_DIR$/src/test" />
+            <option value="$PROJECT_DIR$/src/test/enemydown2" />
+            <option value="$PROJECT_DIR$/src/test/untitled" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/src/test/enemydonw2" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/src/test/enemydonw2" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/src/test/java/org.example.plugin.enemydown2.command/test" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/src/test/java/org.example.plugin.enemydown2.command/test" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/src/test/org.example.plugin.enemydown2/command/untitled" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/src/test/org.example.plugin.enemydown2/command/untitled" />
           </set>
         </option>
       </GradleProjectSettings>
