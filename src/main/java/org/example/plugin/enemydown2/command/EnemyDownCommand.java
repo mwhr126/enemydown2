@@ -84,7 +84,7 @@ public class EnemyDownCommand extends BaseCommand implements Listener {
 
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
         for (PlayerScore playerScore : playerScoreList){
-          LocalDateTime date = LocalDateTime.parse(playerScore.getRegistered_at(), formatter);
+          LocalDateTime date = LocalDateTime.parse(playerScore.getRegisteredAt(), formatter);
 
           player.sendMessage(playerScore.getId() + " | "
               + playerScore.getPlayerName()
@@ -93,26 +93,6 @@ public class EnemyDownCommand extends BaseCommand implements Listener {
               + " | " + date.format(formatter));
         }
       }
-
-//      try (Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/paper_server",
-//          "root",
-//          "miwawbc126719126719mysql");
-//          Statement statement = con.createStatement();
-//          ResultSet resultset = statement.executeQuery("select * from player_score;")) {
-//        while (resultset.next()) {
-//          int id = resultset.getInt("id");
-//          String name = resultset.getString("player_name");
-//          int score = resultset.getInt("score");
-//          String difficulty = resultset.getString("difficulty");
-//
-//          DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
-//          LocalDateTime date = LocalDateTime.parse(resultset.getString("registered_at"), formatter);
-//
-//          player.sendMessage(id + " | " + name + " | " + score + " | " + difficulty + " | " + date.format(formatter));
-//        }
-//      } catch (SQLException e) {
-//        e.printStackTrace();
-//      }
       return false;
     }
 
