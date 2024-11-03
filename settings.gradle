@@ -1,1 +1,6 @@
 rootProject.name = 'EnemyDown2'
+include 'src:test:enemydown2'
+findProject(':src:test:enemydown2')?.name = 'enemydown2'
+include 'src:test:untitled'
+findProject(':src:test:untitled')?.name = 'untitled'
+
