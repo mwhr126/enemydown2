@@ -36,5 +36,5 @@ class EnemyDownCommandTest {
     String actual = sut.getDifficulty(player, new String[]{"normal"});
     Assertions.assertEquals("normal", actual);
   }
-  
+
 }
