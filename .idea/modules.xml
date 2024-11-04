@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/EnemyDown2.main.iml" filepath="$PROJECT_DIR$/.idea/modules/EnemyDown2.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/EnemyDown2.test.iml" filepath="$PROJECT_DIR$/.idea/modules/EnemyDown2.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/enemydonw2.main.iml" filepath="$PROJECT_DIR$/.idea/modules/enemydonw2.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test.main.iml" filepath="$PROJECT_DIR$/.idea/modules/test.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/untitled.main.iml" filepath="$PROJECT_DIR$/.idea/modules/untitled.main.iml" />
     </modules>
   </component>
 </project>

@@ -19,7 +19,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly "io.papermc.paper:paper-api:1.21-R0.1-SNAPSHOT"
+    implementation "io.papermc.paper:paper-api:1.21-R0.1-SNAPSHOT"
     implementation 'org.mybatis:mybatis:3.5.16'
 
     compileOnly 'org.projectlombok:lombok:1.18.30'
@@ -27,6 +27,13 @@ dependencies {
 
     testCompileOnly 'org.projectlombok:lombok:1.18.30'
     testAnnotationProcessor 'org.projectlombok:lombok:1.18.30'
+
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.11.3'
+    testImplementation 'org.mockito:mockito-core:5.+'
+}
+
+test {
+    useJUnitPlatform()
 }
 
 

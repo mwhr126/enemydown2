@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.plugin.enemydown2.command.EnemyDownCommandTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-11-04T04:16:11" hostname="MacBook-Pro.local" time="0.272">
+  <properties/>
+  <testcase name="getDifficultyに渡す引数のargsの最初の文字列がeasyの時にeasyの文字列が返ること()" classname="org.example.plugin.enemydown2.command.EnemyDownCommandTest" time="0.247"/>
+  <testcase name="getDifficultyに渡す引数のargsの最初の文字列がnormalの時にnormalの文字列が返ること()" classname="org.example.plugin.enemydown2.command.EnemyDownCommandTest" time="0.022"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+</testsuite>
